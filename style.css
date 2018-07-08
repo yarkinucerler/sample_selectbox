@@ -1,0 +1,44 @@
+/**
+ * Created by Yarkin UCERLER on 8.07.2018.
+ */
+
+* {
+    box-sizing: border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+}
+
+.select {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+}
+
+.select #select-input {
+    height: 38px;
+    width: 100%;
+    max-width: 100%;
+    padding: 5px 5px 5px 15px;
+}
+
+.select #select-list {
+    left: 0;
+    padding: 0;
+    width: 100%;
+    display: none;
+    max-width: 100%;
+    position: absolute;
+    border: 1px solid #ddd;
+}
+
+.select #select-list .select-list-item {
+    width: 100%;
+    max-width: 100%;
+    padding: 10px 15px;
+}
+
+.select #select-list .select-list-item:hover,
+.select #select-list .select-list-item.active {
+    color: white;
+    background: cornflowerblue;
+}
